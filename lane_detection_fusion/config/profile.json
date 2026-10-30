@@ -1,0 +1,16 @@
+{
+  "camera": {
+    "calibration_file": "camera_calibration.json",
+    "input_mode": "raw_16_9",
+    "process_width": 640
+  },
+  "vision": {},
+  "runtime": {
+    "max_frame_age_s": 0.25,
+    "max_result_age_s": 0.3,
+    "max_input_silence_s": 0.35,
+    "control_hz": 20.0,
+    "check_header_age": true,
+    "clock_tolerance_s": 0.05
+  }
+}

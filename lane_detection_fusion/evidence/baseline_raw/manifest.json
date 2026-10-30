@@ -1,0 +1,25 @@
+{
+  "source": "C:\\Users\\User\\Documents\\ChatGPT\\닌쟈\\inputs\\source\\turtlebot3_autorace_2026-master\\lane_detection\\lane_detection\\detection.py",
+  "source_sha256": "51b001a73d804e326c8a71ec536698e70fbacea3b7c4c41c67ebd67eb692aad3",
+  "helper": "C:\\Users\\User\\Documents\\ChatGPT\\닌쟈\\lane_lab\\scripts\\replay_baseline.py",
+  "helper_sha256": "40b1681353576f36f71ffba05f480e64b81bfa0f992ed323f5b3edd16ba60be8",
+  "tool_sha256": "c301dbfc7ecda22eec2388158be2ff28be9660ddfef6dd67dce0b02a81cb5b0a",
+  "calibration_sha256": "508abd2bce80cbb7f17a2ee660f63efdb9a6bae5decc5fc2b3c018ff27a77e39",
+  "camera_calibration_source_pickle_sha256": "c22cd925234e39a8fa587a9d9076f73fb4edcfb2b8e8110b406568a3f75a1da8",
+  "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+  "opencv": "5.0.0",
+  "numpy": "2.5.4",
+  "opencv_threads": 1,
+  "ros_runtime_reproduced": false,
+  "closed_loop_verified": false,
+  "portability_addendum": {
+    "helper_snapshot": "replay_helper.py",
+    "helper_snapshot_sha256": "40b1681353576f36f71ffba05f480e64b81bfa0f992ed323f5b3edd16ba60be8",
+    "matches_executed_helper": true,
+    "source_snapshot": "source_snapshot.py",
+    "source_snapshot_sha256": "51b001a73d804e326c8a71ec536698e70fbacea3b7c4c41c67ebd67eb692aad3",
+    "matches_executed_source": true,
+    "tool_after_portability_sha256": "1209a8ea97e5d07acaaa09b4cc50bdff01ed79b4f190de33eaeca7af14ed2c88",
+    "changes": "Default path fallbacks and documentation only; baseline processing not rerun"
+  }
+}

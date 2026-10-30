@@ -1,0 +1,33 @@
+test_bad_observations_are_zero (test_core.CoreTests.test_bad_observations_are_zero) ... ok
+test_debug_does_not_modify_source (test_core.CoreTests.test_debug_does_not_modify_source) ... ok
+test_known_left_and_right_keep_same_center_and_slow_down (test_core.CoreTests.test_known_left_and_right_keep_same_center_and_slow_down) ... ok
+test_long_gap_drops_boundary_identity (test_core.CoreTests.test_long_gap_drops_boundary_identity) ... ok
+test_lost_does_not_reuse_old_command (test_core.CoreTests.test_lost_does_not_reuse_old_command) ... ok
+test_new_single_boundary_never_invents_role (test_core.CoreTests.test_new_single_boundary_never_invents_role) ... ok
+test_pair_establishes_center_and_straight_command (test_core.CoreTests.test_pair_establishes_center_and_straight_command) ... ok
+test_steering_sign_and_limits (test_core.CoreTests.test_steering_sign_and_limits) ... ok
+test_bad_intrinsics_are_rejected (test_geometry.GeometryTests.test_bad_intrinsics_are_rejected) ... ok
+test_native_aspect_and_map_cache (test_geometry.GeometryTests.test_native_aspect_and_map_cache) ... ok
+test_pickle_other_globals_are_forbidden (test_geometry.GeometryTests.test_pickle_other_globals_are_forbidden) ... ok
+test_rectified_never_remaps_and_shape_is_locked (test_geometry.GeometryTests.test_rectified_never_remaps_and_shape_is_locked) ... ok
+unittest.case.FunctionTestCase (test_backward_ros_clock_jump_invalidates_result) ... ok
+unittest.case.FunctionTestCase (test_command_with_old_header_expires_before_receipt_deadline) ... ok
+unittest.case.FunctionTestCase (test_configuration_rejects_bad_deadlines) ... ok
+unittest.case.FunctionTestCase (test_disable_during_inference_cannot_be_overwritten) ... ok
+unittest.case.FunctionTestCase (test_forward_ros_clock_jump_expires_command_without_another_image) ... ok
+unittest.case.FunctionTestCase (test_header_age_is_checked_before_and_after_inference) ... ok
+unittest.case.FunctionTestCase (test_lost_result_cannot_rotate_or_move) ... ok
+unittest.case.FunctionTestCase (test_mode_generation_rejects_a_running_job) ... ok
+unittest.case.FunctionTestCase (test_only_latest_pending_frame_is_processed) ... ok
+unittest.case.FunctionTestCase (test_reset_generation_rejects_a_running_job) ... ok
+unittest.case.FunctionTestCase (test_slow_inference_result_is_rejected_after_processing) ... ok
+unittest.case.FunctionTestCase (test_stale_input_is_rejected_before_processing) ... ok
+unittest.case.FunctionTestCase (test_watchdog_detects_ros_clock_jump_without_another_image) ... ok
+unittest.case.FunctionTestCase (test_watchdog_stops_while_worker_is_blocked) ... ok
+unittest.case.FunctionTestCase (test_watchdog_uses_original_receipt_not_republication_time) ... ok
+
+----------------------------------------------------------------------
+Ran 27 tests in 0.512s
+
+OK
+Python 3.8 grammar check passed (not a ROS/runtime compatibility test)

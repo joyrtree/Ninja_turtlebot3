@@ -1,0 +1,6 @@
+include README.md package.xml setup.cfg
+recursive-include resource *
+recursive-include config *.json
+recursive-include launch *.py
+recursive-include tools *.py
+recursive-include test *.py

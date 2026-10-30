@@ -1,0 +1,105 @@
+{
+  "source_pickle": "C:\\Users\\User\\Documents\\ChatGPT\\닌쟈\\inputs\\camera_ros_snapshot\\camera_ros-main\\camera_ros\\camera_calibration.pkl",
+  "source_pickle_sha256": "c22cd925234e39a8fa587a9d9076f73fb4edcfb2b8e8110b406568a3f75a1da8",
+  "expected_source_pickle_sha256": "c22cd925234e39a8fa587a9d9076f73fb4edcfb2b8e8110b406568a3f75a1da8",
+  "restricted_allowed_globals": [
+    "numpy.ndarray",
+    "numpy.dtype",
+    "numpy.core.multiarray._reconstruct",
+    "numpy._core.multiarray._reconstruct"
+  ],
+  "runtime_format": "JSON; no runtime pickle loading",
+  "calibration_scope": "native 1280x720 intrinsics and lens distortion only",
+  "valid_image_count_from_pickle": 43,
+  "rms_reprojection_error_px_from_pickle": 1.6178150814188486,
+  "source_files_sha256": {
+    "HANDOFF.md": "2a5a67461617460fbecb7ebd462e1f9868a6f1e2afbb51c5017d081820a3472f",
+    "camera_ros/publisher.py": "6a15c5867512d0212f29ca8ec109c6a1341f960a28d58e1c4268893d89baf11d",
+    "camera_ros/calibration.py": "186986fa6cb1b982c793fb69c7cbc71df7e9fed9ea1619574a9dafc590a5c43e"
+  },
+  "source_handoff_claims": {
+    "calibrated_at_kst": "2026-10-27 23:11:23",
+    "environment": "ROS2 Galactic / Python3.8.10 / OpenCV4.2.0",
+    "checkerboard_inner_corners": [
+      7,
+      9
+    ],
+    "checkerboard_square_mm": 18.2,
+    "capture_count": 78,
+    "status": "document claims; not recaptured or independently recalibrated here"
+  },
+  "topic_contract": {
+    "/camera_raw_16_9": "1280x720 native raw, no remap/crop/resize",
+    "/camera_raw": "central 960x720 crop then 640x480, not native wide raw",
+    "/camera": "already remapped, ROI cropped, resized to640x480; use rectified mode"
+  },
+  "new_raw_processing": "alpha0 full1280x720 remap, no ROI crop, aspect-preserving640x360",
+  "ground_extrinsics_available": false,
+  "checkerboard_rvecs_tvecs_exported_as_ground_extrinsics": false,
+  "metric_bev_or_pure_pursuit_calibration_complete": false,
+  "local_geometry_verification": {
+    "native_bag": "C:\\Users\\User\\Documents\\ChatGPT\\닌쟈\\inputs\\bags_raw\\bag_raw\\normal\\normal_0.db3",
+    "topic": "/camera_raw_16_9",
+    "camera_index": 0,
+    "record_timestamp_ns": 1793111526072348206,
+    "input_shape_hwc": [
+      720,
+      1280,
+      3
+    ],
+    "prepared_shape_hwc": [
+      360,
+      640,
+      3
+    ],
+    "opencv_version_tested_here": "5.0.0",
+    "numpy_version_tested_here": "2.5.4",
+    "python_version_tested_here": "3.12.14",
+    "target_compatibility": "Uses APIs available in Python3.8 and OpenCV4.2; actual ROS Galactic/OpenCV4.2 runtime not executed here",
+    "geometry_tests_passed": 4,
+    "prepare_metadata": {
+      "input_mode": "raw_16_9",
+      "input_size": [
+        1280,
+        720
+      ],
+      "output_size": [
+        640,
+        360
+      ],
+      "remap_applied": true,
+      "undistort_alpha": 0,
+      "valid_roi_not_cropped": [
+        0,
+        0,
+        1279,
+        719
+      ],
+      "roi_crop_applied": false,
+      "resize_policy": "aspect ratio preserved, integer-pixel rounding only",
+      "processed_camera_matrix": [
+        [
+          426.02264525884976,
+          0.0,
+          324.6062322396402
+        ],
+        [
+          0.0,
+          401.8811964310128,
+          215.33002089665047
+        ],
+        [
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "rectified_intrinsics_known": true,
+      "ground_metric_calibration_available": false
+    },
+    "raw_image": "geometry_raw_normal_000000_raw.jpg",
+    "prepared_image": "geometry_raw_normal_000000_prepared.png",
+    "metric_ground_geometry_verified": false,
+    "closed_loop_driving_verified": false
+  }
+}

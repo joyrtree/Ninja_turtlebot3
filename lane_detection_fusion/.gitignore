@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+build/
+install/
+log/
+*.egg-info/
+.runtime/
+*.db3
+*.bag
+*.pt
+*.onnx
+*.pkl
+calibration_images/
+replays/
+evidence/smoke_*/
+evidence/raw_*/replay.mp4

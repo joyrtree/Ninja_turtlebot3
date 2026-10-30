@@ -1,0 +1,53 @@
+{
+  "camera": {
+    "calibration_file": "camera_calibration.json",
+    "input_mode": "raw_16_9",
+    "process_width": 640
+  },
+  "vision": {
+    "max_speed": 0.1,
+    "max_angular": 0.8,
+    "kp": 1.6,
+    "k_heading": 1.2,
+    "kd": 0.0,
+    "roi_top": 0.48,
+    "roi_bottom": 0.94,
+    "bands": 14,
+    "min_track_points": 6,
+    "band_half_height": 0.008,
+    "min_luma": 70.0,
+    "min_contrast": 11.0,
+    "min_stripe_width": 0.002,
+    "max_stripe_width": 0.085,
+    "max_candidates_per_band": 8,
+    "max_link_step": 0.09,
+    "max_link_missed_bands": 2,
+    "min_track_span": 0.23,
+    "min_corridor_width": 0.18,
+    "max_corridor_width": 0.99,
+    "max_width_change": 0.4,
+    "width_alpha": 0.25,
+    "max_gap_s": 0.6,
+    "max_track_age_s": 0.4,
+    "max_width_age_s": 3.0,
+    "association_distance": 0.12,
+    "role_margin": 0.025,
+    "ambiguity_margin": 0.035,
+    "near_y": 0.86,
+    "far_y": 0.64,
+    "min_confidence": 0.32,
+    "single_speed_factor": 0.55,
+    "steering_slowdown": 1.8,
+    "bend_slowdown": 4.0,
+    "dt_min": 0.02,
+    "dt_max": 0.25
+  },
+  "runtime": {
+    "max_frame_age_s": 0.25,
+    "max_result_age_s": 0.3,
+    "max_input_silence_s": 0.35,
+    "control_hz": 20.0,
+    "check_header_age": true,
+    "clock_tolerance_s": 0.05
+  }
+}

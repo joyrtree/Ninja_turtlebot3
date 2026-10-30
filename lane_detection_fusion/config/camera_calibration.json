@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "camera_model": "opencv_pinhole",
+  "image_size": [
+    1280,
+    720
+  ],
+  "camera_matrix": [
+    [
+      852.0452905176995,
+      0.0,
+      649.2124644792804
+    ],
+    [
+      0.0,
+      803.7623928620258,
+      430.66004179330093
+    ],
+    [
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "dist_coeffs": [
+    -0.644230125101275,
+    0.34015098657967335,
+    -0.016771409484574708,
+    -0.0028982473555201303,
+    -0.07864560278867368
+  ],
+  "rms_reprojection_error_px": 1.6178150814188486,
+  "valid_image_count": 43,
+  "source_pickle_sha256": "c22cd925234e39a8fa587a9d9076f73fb4edcfb2b8e8110b406568a3f75a1da8",
+  "source_calibration_image_directory": "/home/atom5/turtlebot3_ws/src/camera_ros/camera_ros/calibration_images/20261027_230907_604004",
+  "ground_extrinsics_available": false
+}
